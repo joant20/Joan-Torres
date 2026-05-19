@@ -47,11 +47,3 @@ I'm Joan Torres from Dominican Republic 🇩🇴 <br><br>
 - Learn backend development deeply <br>
 - Get my first opportunity as a developer 💻
 </p>
-
-###
-
-<h3 align="left">🔥 My Stats</h3>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=TU-USUARIO&theme=dark&hide_border=false" height="220"/>
-</div>
