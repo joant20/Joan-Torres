@@ -1,0 +1,234 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" font-family="Segoe UI, Arial, Helvetica, sans-serif">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#000000" flood-opacity="0.18"/>
+    </filter>
+    <clipPath id="scr1"><rect x="52" y="278" width="356" height="676" rx="36"/></clipPath>
+    <clipPath id="scr2"><rect x="622" y="278" width="356" height="676" rx="36"/></clipPath>
+    <clipPath id="scr3"><rect x="1192" y="278" width="356" height="676" rx="36"/></clipPath>
+  </defs>
+
+  <rect width="1600" height="1000" fill="#F4F5F7"/>
+
+  <!-- Encabezado -->
+  <rect width="1600" height="132" fill="#141416"/>
+  <rect x="48" y="43" width="46" height="46" rx="12" fill="#FFD200"/>
+  <text x="71" y="74" font-size="19" font-weight="800" fill="#141416" text-anchor="middle">LT</text>
+  <text x="112" y="64" font-size="26" font-weight="700" fill="#FFFFFF">LocalTracking</text>
+  <text x="112" y="92" font-size="14.5" fill="#9B9BA1">Sistema de pedidos y seguimiento de entregas</text>
+  <rect x="1350" y="45" width="202" height="42" rx="21" fill="#FFD200"/>
+  <text x="1451" y="72" font-size="16" font-weight="700" fill="#141416" text-anchor="middle">3 · Cliente</text>
+
+  <text x="48" y="196" font-size="44" font-weight="800" fill="#141416">Mockup · Interfaz del Cliente</text>
+  <text x="48" y="230" font-size="19" fill="#55555C">Pantallas para consultar el menú, realizar el pago y visualizar el seguimiento de la entrega en el mapa</text>
+
+  <text x="230" y="254" font-size="19" font-weight="700" fill="#141416" text-anchor="middle">1 · Menú del restaurante</text>
+  <text x="800" y="254" font-size="19" font-weight="700" fill="#141416" text-anchor="middle">2 · Pago con PayPal</text>
+  <text x="1370" y="254" font-size="19" font-weight="700" fill="#141416" text-anchor="middle">3 · Seguimiento en mapa</text>
+
+  <!-- ================= PANTALLA 1: MENÚ ================= -->
+  <g filter="url(#shadow)">
+    <rect x="40" y="266" width="380" height="700" rx="46" fill="#1B1B1D"/>
+  </g>
+  <rect x="52" y="278" width="356" height="676" rx="36" fill="#FFFFFF"/>
+  <g clip-path="url(#scr1)">
+    <rect x="175" y="278" width="110" height="26" rx="13" fill="#1B1B1D"/>
+    <text x="80" y="316" font-size="14" font-weight="700" fill="#141416">9:41</text>
+    <rect x="338" y="303" width="4" height="9" rx="1.5" fill="#141416"/>
+    <rect x="345" y="299" width="4" height="13" rx="1.5" fill="#141416"/>
+    <rect x="352" y="295" width="4" height="17" rx="1.5" fill="#141416"/>
+    <rect x="364" y="299" width="24" height="13" rx="4" fill="none" stroke="#141416" stroke-width="2"/>
+    <rect x="366" y="301" width="16" height="9" rx="2" fill="#141416"/>
+
+    <path d="M92,352 l-12,10 l12,10" fill="none" stroke="#141416" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="112" y="368" font-size="20" font-weight="800" fill="#141416">La Pizzería Central</text>
+    <text x="112" y="392" font-size="13.5" fill="#6E6E73">4.8 ★ · 25-35 min · Pizza</text>
+
+    <rect x="72" y="412" width="316" height="44" rx="22" fill="#F1F1F3"/>
+    <circle cx="96" cy="434" r="7" fill="none" stroke="#9A9AA0" stroke-width="2.5"/>
+    <line x1="101" y1="439" x2="106" y2="444" stroke="#9A9AA0" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="116" y="439" font-size="14" fill="#9A9AA0">Buscar en el menú</text>
+
+    <rect x="72" y="470" width="76" height="36" rx="18" fill="#1B1B1D"/>
+    <text x="110" y="494" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">Pizzas</text>
+    <rect x="158" y="470" width="84" height="36" rx="18" fill="#F1F1F3"/>
+    <text x="200" y="494" font-size="14" fill="#2B2B2E" text-anchor="middle">Bebidas</text>
+    <rect x="252" y="470" width="84" height="36" rx="18" fill="#F1F1F3"/>
+    <text x="294" y="494" font-size="14" fill="#2B2B2E" text-anchor="middle">Postres</text>
+
+    <rect x="72" y="516" width="72" height="72" rx="14" fill="#FFE9A8"/>
+    <circle cx="108" cy="552" r="20" fill="#F4B740"/>
+    <circle cx="102" cy="546" r="3.5" fill="#D9534F"/>
+    <circle cx="115" cy="556" r="3.5" fill="#D9534F"/>
+    <text x="164" y="542" font-size="16.5" font-weight="700" fill="#141416">Pizza Margarita</text>
+    <text x="164" y="562" font-size="12.5" fill="#8E8E93">Tomate, mozzarella y albahaca</text>
+    <text x="164" y="584" font-size="15" font-weight="700" fill="#141416">$9.50</text>
+    <circle cx="364" cy="550" r="19" fill="#FFD200"/>
+    <text x="364" y="557" font-size="24" font-weight="700" fill="#141416" text-anchor="middle">+</text>
+
+    <rect x="72" y="604" width="72" height="72" rx="14" fill="#FFD6D6"/>
+    <circle cx="108" cy="640" r="20" fill="#E8734A"/>
+    <circle cx="102" cy="634" r="4" fill="#8C3A22"/>
+    <circle cx="114" cy="646" r="4" fill="#8C3A22"/>
+    <text x="164" y="630" font-size="16.5" font-weight="700" fill="#141416">Pizza Pepperoni</text>
+    <text x="164" y="650" font-size="12.5" fill="#8E8E93">Pepperoni extra y queso</text>
+    <text x="164" y="672" font-size="15" font-weight="700" fill="#141416">$11.00</text>
+    <circle cx="364" cy="638" r="19" fill="#FFD200"/>
+    <text x="364" y="645" font-size="24" font-weight="700" fill="#141416" text-anchor="middle">+</text>
+
+    <rect x="72" y="692" width="72" height="72" rx="14" fill="#DFF5DF"/>
+    <circle cx="108" cy="728" r="20" fill="#7BC47F"/>
+    <path d="M98,732 q10,-16 20,0" fill="none" stroke="#2E7D32" stroke-width="3"/>
+    <text x="164" y="718" font-size="16.5" font-weight="700" fill="#141416">Ensalada César</text>
+    <text x="164" y="738" font-size="12.5" fill="#8E8E93">Lechuga, pollo y aderezo</text>
+    <text x="164" y="760" font-size="15" font-weight="700" fill="#141416">$7.00</text>
+    <circle cx="364" cy="726" r="19" fill="#FFD200"/>
+    <text x="364" y="733" font-size="24" font-weight="700" fill="#141416" text-anchor="middle">+</text>
+
+    <rect x="72" y="780" width="72" height="72" rx="14" fill="#DDEBFF"/>
+    <rect x="96" y="798" width="24" height="38" rx="5" fill="#5B9BD5"/>
+    <rect x="96" y="798" width="24" height="12" rx="5" fill="#8FC0EA"/>
+    <text x="164" y="806" font-size="16.5" font-weight="700" fill="#141416">Refresco 500 ml</text>
+    <text x="164" y="826" font-size="12.5" fill="#8E8E93">Frío, envase de vidrio</text>
+    <text x="164" y="848" font-size="15" font-weight="700" fill="#141416">$2.50</text>
+    <circle cx="364" cy="814" r="19" fill="#FFD200"/>
+    <text x="364" y="821" font-size="24" font-weight="700" fill="#141416" text-anchor="middle">+</text>
+
+    <rect x="64" y="874" width="332" height="64" rx="20" fill="#1B1B1D"/>
+    <text x="86" y="912" font-size="15" font-weight="700" fill="#FFFFFF">3 productos · $23.50</text>
+    <rect x="250" y="886" width="128" height="40" rx="12" fill="#FFD200"/>
+    <text x="314" y="912" font-size="14" font-weight="700" fill="#141416" text-anchor="middle">Ver pedido</text>
+  </g>
+
+  <!-- ================= PANTALLA 2: PAGO ================= -->
+  <g filter="url(#shadow)">
+    <rect x="610" y="266" width="380" height="700" rx="46" fill="#1B1B1D"/>
+  </g>
+  <rect x="622" y="278" width="356" height="676" rx="36" fill="#FFFFFF"/>
+  <g clip-path="url(#scr2)">
+    <rect x="745" y="278" width="110" height="26" rx="13" fill="#1B1B1D"/>
+    <text x="650" y="316" font-size="14" font-weight="700" fill="#141416">9:41</text>
+    <rect x="908" y="303" width="4" height="9" rx="1.5" fill="#141416"/>
+    <rect x="915" y="299" width="4" height="13" rx="1.5" fill="#141416"/>
+    <rect x="922" y="295" width="4" height="17" rx="1.5" fill="#141416"/>
+    <rect x="934" y="299" width="24" height="13" rx="4" fill="none" stroke="#141416" stroke-width="2"/>
+    <rect x="936" y="301" width="16" height="9" rx="2" fill="#141416"/>
+
+    <path d="M662,352 l-12,10 l12,10" fill="none" stroke="#141416" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="682" y="368" font-size="20" font-weight="800" fill="#141416">Confirmar pedido</text>
+
+    <text x="642" y="414" font-size="12" font-weight="700" letter-spacing="1.2" fill="#8E8E93">TU PEDIDO</text>
+    <text x="642" y="448" font-size="15" fill="#2B2B2E">2× Pizza Margarita</text>
+    <text x="958" y="448" font-size="15" font-weight="700" fill="#141416" text-anchor="end">$19.00</text>
+    <text x="642" y="480" font-size="15" fill="#2B2B2E">1× Ensalada César</text>
+    <text x="958" y="480" font-size="15" font-weight="700" fill="#141416" text-anchor="end">$7.00</text>
+    <text x="642" y="512" font-size="15" fill="#2B2B2E">2× Refresco</text>
+    <text x="958" y="512" font-size="15" font-weight="700" fill="#141416" text-anchor="end">$5.00</text>
+    <line x1="642" y1="534" x2="958" y2="534" stroke="#ECECEF" stroke-width="2"/>
+    <text x="642" y="568" font-size="17" font-weight="800" fill="#141416">Total</text>
+    <text x="958" y="568" font-size="18" font-weight="800" fill="#141416" text-anchor="end">$31.00</text>
+
+    <text x="642" y="612" font-size="12" font-weight="700" letter-spacing="1.2" fill="#8E8E93">MÉTODO DE PAGO</text>
+
+    <rect x="642" y="628" width="316" height="64" rx="14" fill="#EAF3FF" stroke="#0A84FF" stroke-width="2.5"/>
+    <rect x="658" y="642" width="88" height="36" rx="8" fill="#FFFFFF"/>
+    <text x="702" y="666" font-size="16" font-weight="800" font-style="italic" fill="#003087" text-anchor="middle">PayPal</text>
+    <text x="762" y="656" font-size="13" fill="#2B2B2E">Saldo y cuenta</text>
+    <text x="762" y="676" font-size="13" fill="#6E6E73">PayPal</text>
+    <circle cx="932" cy="660" r="11" fill="#0A84FF"/>
+    <circle cx="932" cy="660" r="4.5" fill="#FFFFFF"/>
+
+    <rect x="642" y="704" width="316" height="64" rx="14" fill="#F6F6F8" stroke="#E0E0E5" stroke-width="2"/>
+    <rect x="658" y="720" width="44" height="30" rx="5" fill="#1B1B1D"/>
+    <rect x="658" y="728" width="44" height="7" fill="#8E8E93"/>
+    <text x="716" y="730" font-size="14" font-weight="700" fill="#141416">•••• 4242</text>
+    <text x="716" y="750" font-size="12.5" fill="#6E6E73">Tarjeta tokenizada</text>
+    <circle cx="932" cy="736" r="11" fill="none" stroke="#C7C7CC" stroke-width="2.5"/>
+
+    <path d="M646,794 h10 v-5 a5,5 0 0 1 10,0 v5 h2 v12 h-22 v-12 z" fill="#9A9AA0" transform="translate(0,0)"/>
+    <text x="676" y="805" font-size="13" fill="#6E6E73">Pago seguro · tokenización de tarjeta</text>
+
+    <rect x="642" y="828" width="316" height="56" rx="16" fill="#FFD200"/>
+    <text x="800" y="863" font-size="17" font-weight="800" fill="#141416" text-anchor="middle">Pagar $31.00</text>
+
+    <text x="800" y="916" font-size="12.5" fill="#9A9AA0" text-anchor="middle">Recibirás la confirmación en tu correo</text>
+  </g>
+
+  <!-- ================= PANTALLA 3: SEGUIMIENTO ================= -->
+  <g filter="url(#shadow)">
+    <rect x="1180" y="266" width="380" height="700" rx="46" fill="#1B1B1D"/>
+  </g>
+  <rect x="1192" y="278" width="356" height="676" rx="36" fill="#16161A"/>
+  <g clip-path="url(#scr3)">
+    <!-- Mapa -->
+    <rect x="1192" y="278" width="356" height="676" fill="#16161A"/>
+    <g stroke="#26262C" stroke-width="14">
+      <line x1="1192" y1="390" x2="1548" y2="390"/>
+      <line x1="1192" y1="480" x2="1548" y2="480"/>
+      <line x1="1192" y1="570" x2="1548" y2="570"/>
+      <line x1="1192" y1="660" x2="1548" y2="660"/>
+      <line x1="1192" y1="750" x2="1548" y2="750"/>
+      <line x1="1192" y1="840" x2="1548" y2="840"/>
+      <line x1="1250" y1="278" x2="1250" y2="954"/>
+      <line x1="1330" y1="278" x2="1330" y2="954"/>
+      <line x1="1410" y1="278" x2="1410" y2="954"/>
+      <line x1="1490" y1="278" x2="1490" y2="954"/>
+    </g>
+    <polyline points="1235,640 1305,595 1365,545 1440,505 1500,470" fill="none" stroke="#FFD200" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Pin comercio -->
+    <g transform="translate(1235,640)">
+      <circle r="24" fill="#FFFFFF" stroke="#141416" stroke-width="3"/>
+      <path d="M-11,-4 L0,-13 L11,-4 Z" fill="#141416"/>
+      <rect x="-8" y="-4" width="16" height="13" fill="#141416"/>
+    </g>
+    <!-- Pin repartidor -->
+    <g transform="translate(1365,545)">
+      <circle r="24" fill="#FFD200" stroke="#141416" stroke-width="3"/>
+      <circle cx="-8" cy="6" r="6" fill="none" stroke="#141416" stroke-width="2.5"/>
+      <circle cx="9" cy="6" r="6" fill="none" stroke="#141416" stroke-width="2.5"/>
+      <path d="M-8,6 L-1,-5 L7,-5 L9,6 M-1,-5 L-5,-10" fill="none" stroke="#141416" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+    <!-- Pin destino -->
+    <g transform="translate(1500,470)">
+      <circle r="24" fill="#FFFFFF" stroke="#141416" stroke-width="3"/>
+      <path d="M-10,0 L0,-9 L10,0 M-7,-2 V9 H7 V-2" fill="none" stroke="#141416" stroke-width="2.5" stroke-linejoin="round"/>
+    </g>
+
+    <!-- Notificación -->
+    <rect x="1212" y="340" width="316" height="66" rx="16" fill="#FFFFFF"/>
+    <circle cx="1244" cy="373" r="17" fill="#FFD200"/>
+    <path d="M1238,375 c0,-8 2,-10 2,-14 a4,4 0 0 1 8,0 c0,4 2,6 2,14 z M1241,378 a3,3 0 0 0 6,0" fill="none" stroke="#141416" stroke-width="2" stroke-linejoin="round"/>
+    <text x="1272" y="368" font-size="14" font-weight="800" fill="#141416">Tu pedido salió del comercio</text>
+    <text x="1272" y="390" font-size="12" fill="#6E6E73">La Pizzería Central · hace 2 min</text>
+
+    <!-- Pill ETA -->
+    <rect x="1212" y="424" width="176" height="36" rx="18" fill="#232327"/>
+    <circle cx="1234" cy="442" r="6" fill="#FFD200"/>
+    <text x="1248" y="447" font-size="13.5" font-weight="700" fill="#FFD200">Llega a las 12:30</text>
+
+    <!-- Hoja inferior -->
+    <rect x="1192" y="676" width="356" height="300" fill="#1F1F23"/>
+    <rect x="1340" y="690" width="60" height="5" rx="2.5" fill="#4A4A50"/>
+    <circle cx="1236" cy="738" r="24" fill="#3A3A42"/>
+    <text x="1236" y="744" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">CG</text>
+    <text x="1272" y="732" font-size="16" font-weight="700" fill="#FFFFFF">Carlos G.</text>
+    <text x="1272" y="754" font-size="13" fill="#9B9BA1">Repartidor · 4.9 ★</text>
+    <circle cx="1452" cy="738" r="22" fill="#2C2C33"/>
+    <path d="M1445,730 q3,-2 5,1 l3,4 q1,3 -2,4 q3,5 7,7 q1,-3 4,-2 l4,3 q3,2 1,5 q-3,4 -9,2 q-9,-3 -14,-12 q-2,-6 1,-10 z" fill="#FFFFFF" transform="translate(0,2) scale(0.85) translate(260,120)"/>
+    <circle cx="1504" cy="738" r="22" fill="#2C2C33"/>
+    <path d="M1494,730 h20 v14 h-12 l-6,6 v-6 h-2 z" fill="#FFFFFF"/>
+
+    <circle cx="1222" cy="794" r="6" fill="#34C759"/>
+    <text x="1236" y="799" font-size="14" font-weight="700" fill="#FFFFFF">En camino · llega en 8 min</text>
+
+    <rect x="1216" y="822" width="308" height="56" rx="16" fill="#FFD200"/>
+    <text x="1370" y="857" font-size="18" font-weight="800" fill="#141416" text-anchor="middle">¡Ayuda!</text>
+
+    <rect x="1216" y="892" width="148" height="48" rx="14" fill="#2C2C33"/>
+    <text x="1290" y="922" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">Llamar</text>
+    <rect x="1376" y="892" width="148" height="48" rx="14" fill="#2C2C33"/>
+    <text x="1450" y="922" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">Mensaje</text>
+  </g>
+
+  <text x="800" y="990" font-size="13" fill="#9B9BA1" text-anchor="middle">Proyecto LocalTracking · Imagen 3 de 5 · Interfaz de usuario (cliente)</text>
+</svg>

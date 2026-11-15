@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" font-family="Segoe UI, Arial, Helvetica, sans-serif">
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="10" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="1000" fill="#F4F5F7"/>
+
+  <!-- Encabezado -->
+  <rect width="1600" height="132" fill="#141416"/>
+  <rect x="48" y="43" width="46" height="46" rx="12" fill="#FFD200"/>
+  <text x="71" y="74" font-size="19" font-weight="800" fill="#141416" text-anchor="middle">LT</text>
+  <text x="112" y="64" font-size="26" font-weight="700" fill="#FFFFFF">LocalTracking</text>
+  <text x="112" y="92" font-size="14.5" fill="#9B9BA1">Sistema de pedidos y seguimiento de entregas</text>
+  <rect x="1350" y="45" width="202" height="42" rx="21" fill="#FFD200"/>
+  <text x="1451" y="72" font-size="16" font-weight="700" fill="#141416" text-anchor="middle">1 · Interfaz</text>
+
+  <text x="48" y="196" font-size="44" font-weight="800" fill="#141416">Requisitos de Interfaz</text>
+  <text x="48" y="230" font-size="19" fill="#55555C">Cómo se comunican los usuarios, los dispositivos físicos y otros programas con el sistema</text>
+
+  <!-- ============ TARJETA 1: INTERFAZ DE USUARIO ============ -->
+  <g filter="url(#shadow)">
+    <rect x="40" y="260" width="480" height="690" rx="20" fill="#FFFFFF"/>
+  </g>
+  <path d="M40,280 a20,20 0 0 1 20,-20 h440 a20,20 0 0 1 20,20 v92 h-480 z" fill="#FFC700"/>
+  <g transform="translate(104,316)">
+    <rect x="-28" y="-24" width="56" height="38" rx="5" fill="#FFFFFF" stroke="#141416" stroke-width="4"/>
+    <line x1="-16" y1="-8" x2="16" y2="-8" stroke="#141416" stroke-width="3"/>
+    <line x1="0" y1="14" x2="0" y2="24" stroke="#141416" stroke-width="4"/>
+    <line x1="-13" y1="24" x2="13" y2="24" stroke="#141416" stroke-width="4"/>
+  </g>
+  <text x="160" y="306" font-size="25" font-weight="800" fill="#141416">Interfaz de Usuario</text>
+  <text x="160" y="334" font-size="14" fill="#5A4B00">Elementos visuales con los que</text>
+  <text x="160" y="354" font-size="14" fill="#5A4B00">interactúan los usuarios</text>
+
+  <text x="68" y="410" font-size="12.5" font-weight="700" letter-spacing="1.5" fill="#8E8E93">EJEMPLO EN LOCALTRACKING</text>
+
+  <circle cx="74" cy="444" r="5" fill="#FFC700"/>
+  <text x="92" y="450" font-size="17.5" fill="#2B2B2E">Consultar el menú del restaurante</text>
+  <circle cx="74" cy="488" r="5" fill="#FFC700"/>
+  <text x="92" y="494" font-size="17.5" fill="#2B2B2E">Realizar pedidos en pocos pasos</text>
+  <circle cx="74" cy="532" r="5" fill="#FFC700"/>
+  <text x="92" y="538" font-size="17.5" fill="#2B2B2E">Visualizar la entrega en un mapa</text>
+  <circle cx="74" cy="576" r="5" fill="#FFC700"/>
+  <text x="92" y="582" font-size="17.5" fill="#2B2B2E">Botón de ayuda y notificaciones</text>
+  <circle cx="74" cy="620" r="5" fill="#FFC700"/>
+  <text x="92" y="626" font-size="17.5" fill="#2B2B2E">Panel del comercio para gestionar pedidos</text>
+
+  <line x1="68" y1="660" x2="492" y2="660" stroke="#ECECEF" stroke-width="2"/>
+  <text x="68" y="700" font-size="12.5" font-weight="700" letter-spacing="1.5" fill="#8E8E93">ELEMENTOS VISUALES</text>
+
+  <rect x="68" y="714" width="87" height="38" rx="19" fill="#F1F1F3"/>
+  <text x="111.5" y="739" font-size="14.5" fill="#2B2B2E" text-anchor="middle">Botones</text>
+  <rect x="165" y="714" width="76" height="38" rx="19" fill="#F1F1F3"/>
+  <text x="203" y="739" font-size="14.5" fill="#2B2B2E" text-anchor="middle">Menús</text>
+  <rect x="251" y="714" width="117" height="38" rx="19" fill="#F1F1F3"/>
+  <text x="309.5" y="739" font-size="14.5" fill="#2B2B2E" text-anchor="middle">Formularios</text>
+  <rect x="68" y="762" width="74" height="38" rx="19" fill="#F1F1F3"/>
+  <text x="105" y="787" font-size="14.5" fill="#2B2B2E" text-anchor="middle">Mapas</text>
+  <rect x="152" y="762" width="139" height="38" rx="19" fill="#F1F1F3"/>
+  <text x="221.5" y="787" font-size="14.5" fill="#2B2B2E" text-anchor="middle">Notificaciones</text>
+
+  <rect x="68" y="822" width="424" height="100" rx="14" fill="#FFF8D6"/>
+  <text x="92" y="864" font-size="14.5" fill="#6B5B10">Experiencia sencilla para clientes, comercios y</text>
+  <text x="92" y="888" font-size="14.5" fill="#6B5B10">repartidores, desde el móvil o el escritorio.</text>
+
+  <!-- ============ TARJETA 2: INTERFAZ DE HARDWARE ============ -->
+  <g filter="url(#shadow)">
+    <rect x="560" y="260" width="480" height="690" rx="20" fill="#FFFFFF"/>
+  </g>
+  <path d="M560,280 a20,20 0 0 1 20,-20 h440 a20,20 0 0 1 20,20 v92 h-480 z" fill="#0A84FF"/>
+  <g transform="translate(624,312)">
+    <path d="M0,-26 C14,-26 26,-15 26,-1 C26,16 0,34 0,34 C0,34 -26,16 -26,-1 C-26,-15 -14,-26 0,-26 Z" fill="#FFFFFF" stroke="#141416" stroke-width="4"/>
+    <circle cx="0" cy="-2" r="8" fill="#141416"/>
+  </g>
+  <text x="680" y="306" font-size="25" font-weight="800" fill="#FFFFFF">Interfaz de Hardware</text>
+  <text x="680" y="334" font-size="14" fill="#DCEBFF">Cómo el sistema utiliza</text>
+  <text x="680" y="354" font-size="14" fill="#DCEBFF">dispositivos físicos</text>
+
+  <text x="588" y="410" font-size="12.5" font-weight="700" letter-spacing="1.5" fill="#8E8E93">EJEMPLO EN LOCALTRACKING</text>
+
+  <circle cx="594" cy="444" r="5" fill="#0A84FF"/>
+  <text x="612" y="450" font-size="17.5" fill="#2B2B2E">GPS del teléfono del repartidor para mostrar</text>
+  <text x="612" y="478" font-size="17.5" fill="#2B2B2E">su ubicación durante la entrega</text>
+
+  <circle cx="594" cy="540" r="5" fill="#0A84FF"/>
+  <text x="612" y="546" font-size="17.5" fill="#2B2B2E">Cámara para tomar fotografías como</text>
+  <text x="612" y="574" font-size="17.5" fill="#2B2B2E">evidencia de entrega</text>
+
+  <line x1="588" y1="660" x2="1012" y2="660" stroke="#ECECEF" stroke-width="2"/>
+  <text x="588" y="700" font-size="12.5" font-weight="700" letter-spacing="1.5" fill="#8E8E93">DISPOSITIVOS</text>
+
+  <rect x="588" y="714" width="172" height="38" rx="19" fill="#F1F1F3"/>
+  <text x="674" y="739" font-size="14.5" fill="#2B2B2E" text-anchor="middle">GPS del repartidor</text>
+  <rect x="770" y="714" width="86" height="38" rx="19" fill="#F1F1F3"/>
+  <text x="813" y="739" font-size="14.5" fill="#2B2B2E" text-anchor="middle">Cámara</text>
+  <rect x="588" y="762" width="190" height="38" rx="19" fill="#F1F1F3"/>
+  <text x="683" y="787" font-size="14.5" fill="#2B2B2E" text-anchor="middle">Evidencia de entrega</text>
+
+  <rect x="588" y="822" width="424" height="100" rx="14" fill="#E8F3FF"/>
+  <text x="612" y="864" font-size="14.5" fill="#12507E">El repartidor comparte su ubicación en tiempo real</text>
+  <text x="612" y="888" font-size="14.5" fill="#12507E">y deja constancia fotográfica al entregar.</text>
+
+  <!-- ============ TARJETA 3: INTERFAZ DE SOFTWARE ============ -->
+  <g filter="url(#shadow)">
+    <rect x="1080" y="260" width="480" height="690" rx="20" fill="#FFFFFF"/>
+  </g>
+  <path d="M1080,280 a20,20 0 0 1 20,-20 h440 a20,20 0 0 1 20,20 v92 h-480 z" fill="#2FBF6B"/>
+  <text x="1144" y="328" font-size="32" font-weight="800" fill="#141416" text-anchor="middle" font-family="Consolas, monospace">&lt;/&gt;</text>
+  <text x="1200" y="306" font-size="25" font-weight="800" fill="#FFFFFF">Interfaz de Software</text>
+  <text x="1200" y="334" font-size="14" fill="#E2FBEC">Comunicación con programas</text>
+  <text x="1200" y="354" font-size="14" fill="#E2FBEC">y servicios externos</text>
+
+  <text x="1108" y="410" font-size="12.5" font-weight="700" letter-spacing="1.5" fill="#8E8E93">EJEMPLO EN LOCALTRACKING</text>
+
+  <circle cx="1114" cy="444" r="5" fill="#2FBF6B"/>
+  <text x="1132" y="450" font-size="17.5" fill="#2B2B2E">Google Maps: ubicaciones y rutas de</text>
+  <text x="1132" y="478" font-size="17.5" fill="#2B2B2E">entrega visualizadas en el mapa</text>
+
+  <circle cx="1114" cy="540" r="5" fill="#2FBF6B"/>
+  <text x="1132" y="546" font-size="17.5" fill="#2B2B2E">PayPal: procesamiento de pagos</text>
+  <text x="1132" y="574" font-size="17.5" fill="#2B2B2E">electrónicos de los clientes</text>
+
+  <line x1="1108" y1="660" x2="1532" y2="660" stroke="#ECECEF" stroke-width="2"/>
+  <text x="1108" y="700" font-size="12.5" font-weight="700" letter-spacing="1.5" fill="#8E8E93">SERVICIOS EXTERNOS</text>
+
+  <rect x="1108" y="714" width="125" height="38" rx="19" fill="#F1F1F3"/>
+  <text x="1170.5" y="739" font-size="14.5" fill="#2B2B2E" text-anchor="middle">Google Maps</text>
+  <rect x="1243" y="714" width="84" height="38" rx="19" fill="#F1F1F3"/>
+  <text x="1285" y="739" font-size="14.5" fill="#2B2B2E" text-anchor="middle">PayPal</text>
+
+  <rect x="1108" y="822" width="424" height="100" rx="14" fill="#E9F9EE"/>
+  <text x="1132" y="864" font-size="14.5" fill="#1B6B3A">Permite sumar servicios externos al sistema sin</text>
+  <text x="1132" y="888" font-size="14.5" fill="#1B6B3A">desarrollarlos desde cero.</text>
+
+  <text x="800" y="982" font-size="13" fill="#9B9BA1" text-anchor="middle">Proyecto LocalTracking · Imagen 1 de 5 · Requisitos de interfaz</text>
+</svg>
