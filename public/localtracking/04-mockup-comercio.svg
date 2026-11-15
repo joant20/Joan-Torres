@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" font-family="Segoe UI, Arial, Helvetica, sans-serif">
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#000000" flood-opacity="0.16"/>
+    </filter>
+    <clipPath id="win">
+      <rect x="48" y="250" width="1504" height="700" rx="16"/>
+    </clipPath>
+    <clipPath id="mapclip">
+      <rect x="308" y="358" width="842" height="592"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1600" height="1000" fill="#F4F5F7"/>
+
+  <!-- Encabezado -->
+  <rect width="1600" height="132" fill="#141416"/>
+  <rect x="48" y="43" width="46" height="46" rx="12" fill="#FFD200"/>
+  <text x="71" y="74" font-size="19" font-weight="800" fill="#141416" text-anchor="middle">LT</text>
+  <text x="112" y="64" font-size="26" font-weight="700" fill="#FFFFFF">LocalTracking</text>
+  <text x="112" y="92" font-size="14.5" fill="#9B9BA1">Sistema de pedidos y seguimiento de entregas</text>
+  <rect x="1350" y="45" width="202" height="42" rx="21" fill="#FFD200"/>
+  <text x="1451" y="72" font-size="16" font-weight="700" fill="#141416" text-anchor="middle">4 · Comercio</text>
+
+  <text x="48" y="196" font-size="44" font-weight="800" fill="#141416">Mockup · Panel del Comercio</text>
+  <text x="48" y="230" font-size="19" fill="#55555C">Panel para visualizar y gestionar los pedidos recibidos, con mapa interactivo y estado de cada entrega</text>
+
+  <!-- Ventana -->
+  <g filter="url(#shadow)">
+    <rect x="48" y="250" width="1504" height="700" rx="16" fill="#FFFFFF"/>
+  </g>
+
+  <g clip-path="url(#win)">
+    <!-- Barra del navegador -->
+    <rect x="48" y="250" width="1504" height="44" fill="#EDEDF0"/>
+    <circle cx="80" cy="272" r="7" fill="#FF5F57"/>
+    <circle cx="104" cy="272" r="7" fill="#FEBC2E"/>
+    <circle cx="128" cy="272" r="7" fill="#28C840"/>
+    <text x="160" y="277" font-size="13.5" fill="#55555C">LocalTracking · Panel del Comercio</text>
+    <rect x="560" y="257" width="480" height="30" rx="15" fill="#FFFFFF"/>
+    <text x="800" y="277" font-size="13" fill="#6E6E73" text-anchor="middle">localtracking.app/comercio</text>
+
+    <!-- Barra superior -->
+    <rect x="308" y="294" width="1244" height="64" fill="#FFFFFF"/>
+    <text x="336" y="334" font-size="22" font-weight="800" fill="#141416">Pedidos</text>
+    <circle cx="1290" cy="326" r="18" fill="#F1F1F3"/>
+    <rect x="1281" y="320" width="18" height="13" rx="2" fill="none" stroke="#55555C" stroke-width="2"/>
+    <path d="M1281,321 l9,7 l9,-7" fill="none" stroke="#55555C" stroke-width="2"/>
+    <circle cx="1336" cy="326" r="18" fill="#F1F1F3"/>
+    <path d="M1330,329 c0,-7 1.5,-8 1.5,-11 a4.5,4.5 0 0 1 9,0 c0,3 1.5,4 1.5,11 z M1333,332 a3,3 0 0 0 6,0" fill="none" stroke="#55555C" stroke-width="2" stroke-linejoin="round"/>
+    <circle cx="1390" cy="326" r="18" fill="#1B1B1D"/>
+    <text x="1390" y="331" font-size="12" font-weight="700" fill="#FFD200" text-anchor="middle">PC</text>
+    <text x="1416" y="331" font-size="14" fill="#2B2B2E">Perfil Comercio</text>
+    <path d="M1524,322 l6,6 l6,-6" fill="none" stroke="#8E8E93" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="308" y1="358" x2="1552" y2="358" stroke="#E5E5EA" stroke-width="2"/>
+
+    <!-- Sidebar -->
+    <rect x="48" y="294" width="260" height="656" fill="#1B1B1D"/>
+    <rect x="68" y="314" width="44" height="44" rx="12" fill="#FFD200"/>
+    <text x="90" y="343" font-size="16" font-weight="800" fill="#141416" text-anchor="middle">LT</text>
+    <text x="124" y="336" font-size="19" font-weight="700" fill="#FFFFFF">LocalTracking</text>
+    <text x="124" y="356" font-size="12.5" fill="#8E8E93">Panel del comercio</text>
+
+    <rect x="68" y="390" width="220" height="52" rx="12" fill="#FFD200"/>
+    <rect x="85" y="407" width="20" height="17" rx="3" fill="none" stroke="#141416" stroke-width="2.5"/>
+    <path d="M89,407 v-4 a6,6 0 0 1 12,0 v4" fill="none" stroke="#141416" stroke-width="2.5"/>
+    <text x="124" y="423" font-size="16" font-weight="700" fill="#141416">Pedidos</text>
+
+    <rect x="85" y="471" width="20" height="20" rx="10" fill="none" stroke="#C7C7CC" stroke-width="2.5"/>
+    <line x1="95" y1="476" x2="95" y2="486" stroke="#C7C7CC" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="95" y1="481" x2="100" y2="483" stroke="#C7C7CC" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="124" y="487" font-size="16" fill="#C7C7CC">Historial</text>
+
+    <circle cx="95" cy="541" r="7" fill="none" stroke="#C7C7CC" stroke-width="2.5"/>
+    <path d="M84,556 a11,8 0 0 1 22,0" fill="none" stroke="#C7C7CC" stroke-width="2.5"/>
+    <text x="124" y="551" font-size="16" fill="#C7C7CC">Repartidores</text>
+
+    <circle cx="95" cy="605" r="7" fill="none" stroke="#C7C7CC" stroke-width="2.5"/>
+    <circle cx="95" cy="605" r="2.5" fill="#C7C7CC"/>
+    <g stroke="#C7C7CC" stroke-width="2.5" stroke-linecap="round">
+      <line x1="95" y1="593" x2="95" y2="596"/>
+      <line x1="95" y1="614" x2="95" y2="617"/>
+      <line x1="83" y1="605" x2="86" y2="605"/>
+      <line x1="104" y1="605" x2="107" y2="605"/>
+    </g>
+    <text x="124" y="611" font-size="16" fill="#C7C7CC">Configuración</text>
+
+    <rect x="68" y="880" width="220" height="54" rx="14" fill="#FFD200"/>
+    <text x="178" y="914" font-size="17" font-weight="800" fill="#141416" text-anchor="middle">¡Ayuda!</text>
+
+    <!-- Mapa -->
+    <g clip-path="url(#mapclip)">
+      <rect x="308" y="358" width="842" height="592" fill="#E9E8E3"/>
+      <g stroke="#FFFFFF" stroke-width="18">
+        <line x1="308" y1="430" x2="1150" y2="430"/>
+        <line x1="308" y1="530" x2="1150" y2="530"/>
+        <line x1="308" y1="630" x2="1150" y2="630"/>
+        <line x1="308" y1="730" x2="1150" y2="730"/>
+        <line x1="308" y1="830" x2="1150" y2="830"/>
+        <line x1="308" y1="910" x2="1150" y2="910"/>
+        <line x1="380" y1="358" x2="380" y2="950"/>
+        <line x1="480" y1="358" x2="480" y2="950"/>
+        <line x1="580" y1="358" x2="580" y2="950"/>
+        <line x1="680" y1="358" x2="680" y2="950"/>
+        <line x1="780" y1="358" x2="780" y2="950"/>
+        <line x1="880" y1="358" x2="880" y2="950"/>
+        <line x1="980" y1="358" x2="980" y2="950"/>
+        <line x1="1080" y1="358" x2="1080" y2="950"/>
+      </g>
+      <line x1="600" y1="950" x2="1150" y2="560" stroke="#FFFFFF" stroke-width="22"/>
+      <rect x="930" y="770" width="190" height="130" rx="16" fill="#CFE5C4"/>
+      <rect x="330" y="650" width="110" height="60" rx="10" fill="#DCE8F5"/>
+
+      <!-- Ruta -->
+      <polyline points="470,480 560,660 640,780 850,560" fill="none" stroke="#1F1F22" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <!-- Pin comercio -->
+      <g transform="translate(470,480)">
+        <circle r="30" fill="#FFFFFF" stroke="#1F1F22" stroke-width="3.5"/>
+        <path d="M-13,-4 L0,-15 L13,-4 Z" fill="#1F1F22"/>
+        <rect x="-10" y="-4" width="20" height="15" fill="#1F1F22"/>
+        <rect x="-4" y="2" width="8" height="9" fill="#FFD200"/>
+      </g>
+      <!-- Pin repartidor -->
+      <g transform="translate(850,560)">
+        <circle r="30" fill="#FFD200" stroke="#1F1F22" stroke-width="3.5"/>
+        <circle cx="-9" cy="7" r="7" fill="none" stroke="#1F1F22" stroke-width="3"/>
+        <circle cx="10" cy="7" r="7" fill="none" stroke="#1F1F22" stroke-width="3"/>
+        <path d="M-9,7 L-1,-6 L8,-6 L10,7 M-1,-6 L-6,-12" fill="none" stroke="#1F1F22" stroke-width="3" stroke-linecap="round"/>
+      </g>
+
+      <!-- Controles del mapa -->
+      <rect x="332" y="378" width="178" height="40" rx="10" fill="#FFFFFF"/>
+      <text x="352" y="404" font-size="15" font-weight="700" fill="#141416">Mapa interactivo</text>
+      <rect x="332" y="436" width="44" height="44" rx="10" fill="#FFFFFF"/>
+      <text x="354" y="466" font-size="24" font-weight="600" fill="#141416" text-anchor="middle">+</text>
+      <rect x="332" y="492" width="44" height="44" rx="10" fill="#FFFFFF"/>
+      <text x="354" y="522" font-size="26" font-weight="600" fill="#141416" text-anchor="middle">−</text>
+    </g>
+
+    <!-- Panel de pedidos -->
+    <rect x="1150" y="358" width="402" height="592" fill="#FFFFFF"/>
+    <line x1="1150" y1="358" x2="1150" y2="950" stroke="#E5E5EA" stroke-width="2"/>
+    <text x="1174" y="398" font-size="21" font-weight="800" fill="#141416">Pedidos Activos</text>
+    <text x="1174" y="428" font-size="12.5" fill="#8E8E93">ENTREGA</text>
+    <text x="1510" y="428" font-size="12.5" fill="#8E8E93" text-anchor="end">ESTADO</text>
+
+    <rect x="1174" y="442" width="356" height="104" rx="14" fill="#F6F6F8"/>
+    <text x="1194" y="472" font-size="16" font-weight="700" fill="#141416">Pedido Oct. #1</text>
+    <text x="1194" y="498" font-size="13" fill="#6E6E73">Entrega: Hoy, 12:30 PM</text>
+    <text x="1194" y="522" font-size="13" fill="#6E6E73">Tiempo estimado: 25 min</text>
+    <rect x="1414" y="460" width="100" height="30" rx="15" fill="#FFD200"/>
+    <text x="1464" y="480" font-size="12.5" font-weight="700" fill="#141416" text-anchor="middle">En camino</text>
+
+    <rect x="1174" y="558" width="356" height="104" rx="14" fill="#F6F6F8"/>
+    <text x="1194" y="588" font-size="16" font-weight="700" fill="#141416">Pedido Oct. #2</text>
+    <text x="1194" y="614" font-size="13" fill="#6E6E73">Entrega: Hoy, 12:45 PM</text>
+    <text x="1194" y="638" font-size="13" fill="#6E6E73">Tiempo estimado: 40 min</text>
+    <rect x="1410" y="576" width="104" height="30" rx="15" fill="#E4E9F2"/>
+    <text x="1462" y="596" font-size="12.5" font-weight="700" fill="#3A4A63" text-anchor="middle">Preparando</text>
+
+    <rect x="1174" y="674" width="356" height="104" rx="14" fill="#F6F6F8"/>
+    <text x="1194" y="704" font-size="16" font-weight="700" fill="#141416">Pedido Oct. #3</text>
+    <text x="1194" y="730" font-size="13" fill="#6E6E73">Entrega: Hoy, 1:10 PM</text>
+    <text x="1194" y="754" font-size="13" fill="#6E6E73">Tiempo estimado: 15 min</text>
+    <rect x="1414" y="692" width="100" height="30" rx="15" fill="#FFD200"/>
+    <text x="1464" y="712" font-size="12.5" font-weight="700" fill="#141416" text-anchor="middle">En camino</text>
+
+    <rect x="1174" y="790" width="356" height="104" rx="14" fill="#F6F6F8"/>
+    <text x="1194" y="820" font-size="16" font-weight="700" fill="#141416">Pedido Oct. #4</text>
+    <text x="1194" y="846" font-size="13" fill="#6E6E73">Entrega: Ayer, 8:30 PM</text>
+    <text x="1194" y="870" font-size="13" fill="#6E6E73">Entregado con evidencia fotográfica</text>
+    <rect x="1416" y="808" width="98" height="30" rx="15" fill="#D9F5E3"/>
+    <text x="1465" y="828" font-size="12.5" font-weight="700" fill="#1B6B3A" text-anchor="middle">Entregado</text>
+
+    <!-- Sombra borde ventana -->
+    <rect x="48" y="250" width="1504" height="700" rx="16" fill="none" stroke="#00000018" stroke-width="2"/>
+  </g>
+
+  <text x="800" y="982" font-size="13" fill="#9B9BA1" text-anchor="middle">Proyecto LocalTracking · Imagen 4 de 5 · Interfaz de usuario (comercio)</text>
+</svg>

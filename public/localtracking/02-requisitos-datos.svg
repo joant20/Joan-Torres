@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" font-family="Segoe UI, Arial, Helvetica, sans-serif">
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="10" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="1000" fill="#F4F5F7"/>
+
+  <!-- Encabezado -->
+  <rect width="1600" height="132" fill="#141416"/>
+  <rect x="48" y="43" width="46" height="46" rx="12" fill="#FFD200"/>
+  <text x="71" y="74" font-size="19" font-weight="800" fill="#141416" text-anchor="middle">LT</text>
+  <text x="112" y="64" font-size="26" font-weight="700" fill="#FFFFFF">LocalTracking</text>
+  <text x="112" y="92" font-size="14.5" fill="#9B9BA1">Sistema de pedidos y seguimiento de entregas</text>
+  <rect x="1350" y="45" width="202" height="42" rx="21" fill="#FFD200"/>
+  <text x="1451" y="72" font-size="16" font-weight="700" fill="#141416" text-anchor="middle">2 · Datos</text>
+
+  <text x="48" y="196" font-size="44" font-weight="800" fill="#141416">Requisitos de Datos</text>
+  <text x="48" y="230" font-size="19" fill="#55555C">Qué información maneja el sistema, cómo se organiza, quién accede y cómo se protege</text>
+
+  <!-- ============ TARJETA 1: ¿QUÉ INFORMACIÓN? ============ -->
+  <g filter="url(#shadow)">
+    <rect x="48" y="260" width="732" height="325" rx="20" fill="#FFFFFF"/>
+  </g>
+  <circle cx="104" cy="314" r="26" fill="#FFC700"/>
+  <text x="104" y="322" font-size="21" font-weight="800" fill="#141416" text-anchor="middle">1</text>
+  <text x="144" y="310" font-size="22" font-weight="700" fill="#141416">¿Qué información se necesita?</text>
+  <text x="144" y="336" font-size="14" fill="#8E8E93">Los datos que el sistema debe manejar</text>
+  <line x1="76" y1="356" x2="752" y2="356" stroke="#ECECEF" stroke-width="2"/>
+
+  <text x="80" y="390" font-size="15.5" fill="#55555C">El sistema necesita manejar información de:</text>
+
+  <rect x="80" y="406" width="99" height="42" rx="21" fill="#F1F1F3"/>
+  <text x="129.5" y="433" font-size="15" fill="#2B2B2E" text-anchor="middle">Clientes</text>
+  <rect x="191" y="406" width="107" height="42" rx="21" fill="#F1F1F3"/>
+  <text x="244.5" y="433" font-size="15" fill="#2B2B2E" text-anchor="middle">Comercios</text>
+  <rect x="310" y="406" width="107" height="42" rx="21" fill="#F1F1F3"/>
+  <text x="363.5" y="433" font-size="15" fill="#2B2B2E" text-anchor="middle">Productos</text>
+  <rect x="429" y="406" width="200" height="42" rx="21" fill="#F1F1F3"/>
+  <text x="529" y="433" font-size="15" fill="#2B2B2E" text-anchor="middle">Direcciones de entrega</text>
+
+  <rect x="80" y="458" width="91" height="42" rx="21" fill="#F1F1F3"/>
+  <text x="125.5" y="485" font-size="15" fill="#2B2B2E" text-anchor="middle">Precios</text>
+  <rect x="183" y="458" width="91" height="42" rx="21" fill="#F1F1F3"/>
+  <text x="228.5" y="485" font-size="15" fill="#2B2B2E" text-anchor="middle">Pedidos</text>
+  <rect x="286" y="458" width="169" height="42" rx="21" fill="#F1F1F3"/>
+  <text x="370.5" y="485" font-size="15" fill="#2B2B2E" text-anchor="middle">Estado del pedido</text>
+  <rect x="467" y="458" width="220" height="42" rx="21" fill="#F1F1F3"/>
+  <text x="577" y="485" font-size="15" fill="#2B2B2E" text-anchor="middle">Ubicación del repartidor</text>
+
+  <text x="80" y="546" font-size="14" fill="#8E8E93">Estos datos permiten gestionar los pedidos y facilitar el seguimiento de las entregas.</text>
+
+  <!-- ============ TARJETA 2: ¿CÓMO SE ORGANIZARÁ? ============ -->
+  <g filter="url(#shadow)">
+    <rect x="820" y="260" width="732" height="325" rx="20" fill="#FFFFFF"/>
+  </g>
+  <circle cx="876" cy="314" r="26" fill="#0A84FF"/>
+  <text x="876" y="322" font-size="21" font-weight="800" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="916" y="310" font-size="22" font-weight="700" fill="#141416">¿Cómo se organizará la información?</text>
+  <text x="916" y="336" font-size="14" fill="#8E8E93">Almacenamiento y estructura de los datos</text>
+  <line x1="848" y1="356" x2="1524" y2="356" stroke="#ECECEF" stroke-width="2"/>
+
+  <g transform="translate(820,260)">
+    <path d="M42,152 v66 a48,14 0 0 0 96,0 v-66" fill="#D6E9FF" stroke="#0A84FF" stroke-width="3"/>
+    <ellipse cx="90" cy="152" rx="48" ry="14" fill="#EAF3FF" stroke="#0A84FF" stroke-width="3"/>
+    <line x1="42" y1="176" x2="138" y2="176" stroke="#0A84FF" stroke-width="2.5" opacity="0.5"/>
+    <line x1="42" y1="200" x2="138" y2="200" stroke="#0A84FF" stroke-width="2.5" opacity="0.5"/>
+    <text x="90" y="266" font-size="15.5" font-weight="700" fill="#141416" text-anchor="middle">PostgreSQL</text>
+  </g>
+
+  <text x="990" y="410" font-size="16.5" font-weight="700" fill="#141416">Propuesta: PostgreSQL</text>
+  <text x="990" y="438" font-size="15" fill="#55555C">para almacenar y relacionar los datos de</text>
+  <text x="990" y="462" font-size="15" fill="#55555C">clientes, comercios, productos y pedidos.</text>
+
+  <text x="990" y="506" font-size="16.5" font-weight="700" fill="#141416">Ubicaciones del repartidor</text>
+  <text x="990" y="534" font-size="15" fill="#55555C">registradas con estructuras de datos que</text>
+  <text x="990" y="558" font-size="15" fill="#55555C">permiten actualizarlas y consultarlas fácilmente.</text>
+
+  <!-- ============ TARJETA 3: ¿QUIÉN ACCEDERÁ? ============ -->
+  <g filter="url(#shadow)">
+    <rect x="48" y="625" width="732" height="325" rx="20" fill="#FFFFFF"/>
+  </g>
+  <circle cx="104" cy="679" r="26" fill="#AF52DE"/>
+  <text x="104" y="687" font-size="21" font-weight="800" fill="#FFFFFF" text-anchor="middle">3</text>
+  <text x="144" y="675" font-size="22" font-weight="700" fill="#141416">¿Quién podrá acceder a los datos?</text>
+  <text x="144" y="701" font-size="14" fill="#8E8E93">Permisos según la función de cada usuario</text>
+  <line x1="76" y1="721" x2="752" y2="721" stroke="#ECECEF" stroke-width="2"/>
+
+  <rect x="76" y="743" width="676" height="58" rx="14" fill="#F6F6F8"/>
+  <circle cx="112" cy="772" r="20" fill="#FFC700"/>
+  <text x="112" y="778" font-size="15" font-weight="800" fill="#141416" text-anchor="middle">C</text>
+  <text x="146" y="769" font-size="16" font-weight="700" fill="#141416">Cliente</text>
+  <text x="146" y="790" font-size="13.5" fill="#6E6E73">Consulta sus pedidos y su historial de compras</text>
+
+  <rect x="76" y="811" width="676" height="58" rx="14" fill="#F6F6F8"/>
+  <circle cx="112" cy="840" r="20" fill="#0A84FF"/>
+  <text x="112" y="846" font-size="14" font-weight="800" fill="#FFFFFF" text-anchor="middle">Co</text>
+  <text x="146" y="837" font-size="16" font-weight="700" fill="#141416">Comercio</text>
+  <text x="146" y="858" font-size="13.5" fill="#6E6E73">Gestiona los pedidos de su negocio</text>
+
+  <rect x="76" y="879" width="676" height="58" rx="14" fill="#F6F6F8"/>
+  <circle cx="112" cy="908" r="20" fill="#AF52DE"/>
+  <text x="112" y="914" font-size="15" font-weight="800" fill="#FFFFFF" text-anchor="middle">R</text>
+  <text x="146" y="905" font-size="16" font-weight="700" fill="#141416">Repartidor</text>
+  <text x="146" y="926" font-size="13.5" fill="#6E6E73">Ve la información necesaria para realizar sus entregas</text>
+
+  <!-- ============ TARJETA 4: ¿CÓMO SE PROTEGERÁ? ============ -->
+  <g filter="url(#shadow)">
+    <rect x="820" y="625" width="732" height="325" rx="20" fill="#FFFFFF"/>
+  </g>
+  <circle cx="876" cy="679" r="26" fill="#34C759"/>
+  <text x="876" y="687" font-size="21" font-weight="800" fill="#FFFFFF" text-anchor="middle">4</text>
+  <text x="916" y="675" font-size="22" font-weight="700" fill="#141416">¿Cómo se protegerá la información?</text>
+  <text x="916" y="701" font-size="14" fill="#8E8E93">Medidas de seguridad propuestas para el sistema</text>
+  <line x1="848" y1="721" x2="1524" y2="721" stroke="#ECECEF" stroke-width="2"/>
+
+  <rect x="848" y="743" width="330" height="68" rx="14" fill="#F6F6F8"/>
+  <circle cx="884" cy="777" r="16" fill="#E9F9EE"/>
+  <path d="M878,777 l4,4 l8,-9" fill="none" stroke="#34C759" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="912" y="772" font-size="15" font-weight="700" fill="#141416">Autenticación</text>
+  <text x="912" y="794" font-size="12.5" fill="#6E6E73">Verifica la identidad del usuario</text>
+
+  <rect x="1194" y="743" width="330" height="68" rx="14" fill="#F6F6F8"/>
+  <circle cx="1230" cy="777" r="16" fill="#EAF3FF"/>
+  <rect x="1223" y="772" width="14" height="10" rx="2" fill="none" stroke="#0A84FF" stroke-width="2.5"/>
+  <path d="M1225,772 v-3 a5,5 0 0 1 10,0 v3" fill="none" stroke="#0A84FF" stroke-width="2.5"/>
+  <text x="1258" y="772" font-size="15" font-weight="700" fill="#141416">Permisos de acceso</text>
+  <text x="1258" y="794" font-size="12.5" fill="#6E6E73">Cada rol ve solo lo que le corresponde</text>
+
+  <rect x="848" y="823" width="330" height="68" rx="14" fill="#F6F6F8"/>
+  <circle cx="884" cy="857" r="16" fill="#F1EDFD"/>
+  <path d="M884,848 l7,3 v6 c0,5 -3,8 -7,10 c-4,-2 -7,-5 -7,-10 v-6 z" fill="none" stroke="#AF52DE" stroke-width="2.5" stroke-linejoin="round"/>
+  <text x="912" y="852" font-size="15" font-weight="700" fill="#141416">Cifrado</text>
+  <text x="912" y="874" font-size="12.5" fill="#6E6E73">Protege la información personal</text>
+
+  <rect x="1194" y="823" width="330" height="68" rx="14" fill="#F6F6F8"/>
+  <circle cx="1230" cy="857" r="16" fill="#FFF8D6"/>
+  <rect x="1223" y="853" width="14" height="10" rx="2" fill="none" stroke="#C79A00" stroke-width="2.5"/>
+  <circle cx="1230" cy="849" r="4" fill="none" stroke="#C79A00" stroke-width="2.5"/>
+  <text x="1258" y="852" font-size="15" font-weight="700" fill="#141416">Tokenización</text>
+  <text x="1258" y="874" font-size="12.5" fill="#6E6E73">No se guardan los números de tarjeta</text>
+
+  <rect x="848" y="903" width="676" height="34" rx="12" fill="#E9F9EE"/>
+  <text x="1186" y="925" font-size="13.5" fill="#1B6B3A" text-anchor="middle">Los pagos se procesan con tokenización: nunca se almacenan los números completos de las tarjetas.</text>
+
+  <text x="800" y="982" font-size="13" fill="#9B9BA1" text-anchor="middle">Proyecto LocalTracking · Imagen 2 de 5 · Requisitos de datos</text>
+</svg>
